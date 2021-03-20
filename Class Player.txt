@@ -1,0 +1,7 @@
+		Class player:
+This class give information regarding players
+ It contain 
+		func get_players(self,n);
+This function saves name of player.First it 
+ask and save number of players.
+

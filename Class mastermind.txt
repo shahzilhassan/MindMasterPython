@@ -1,0 +1,33 @@
+			Class mastermind:
+It is an last class written at bottom of page.
+It contains 
+		Function play(self):
+This function prints menu of game i.e
+
+ print("\n\n\n\nSelect which game you want to play:")
+        print("(A)  Mastermind for 2 players")
+        print("(B)  Mastermind for 1 player")
+        print("(C)  Mastermind for 4 players")
+        print("(D)  Mastermind for 4 players  vs Computer")
+        print("(E) to Exit")
+        
+        print("****Enter A, B, C, D to continue  or Enter E to Exit****")
+        
+
+Than there is an clr function
+		Function clr():
+simply runs the clear command
+==========================================================================================
+		Class Mastermind():
+It contain function 
+def playy(self):
+ obj = mastermind()
+
+        choice = obj.play()
+It create obj of mastermind class through which 
+it calls play().
+Than there is obj calls clr()
+than there are options according to which than obj calls 
+mastermind2() or mastermindl() or mastermind4player()
+or mastermind4playerComputer();
+else there is invalid input

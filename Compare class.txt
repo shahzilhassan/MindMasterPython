@@ -1,0 +1,14 @@
+		Class compare_code:
+This class has function
+		def compare(self,code,guess):
+It compare the guess of player with original code
+if guess==code:
+ it returns "Match"
+
+
+There is a section of code in this function 
+which checks the correct positions and color by
+  using for loop having
+  peg == guess
+
+There is section which make list of blacks and whites
